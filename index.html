@@ -1,344 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samiun Arno</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Samiun Arno</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="assets/images/bl.jpeg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="assets/images/bl.jpeg"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/bl.jpeg"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Samiun Mahmud</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/bl.jpeg" alt="Richard hanrick" width="80">
-        </figure>
+            <p class="title">Computer Engineer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Samiun Mahmud</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Computer Engineer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >attendantarno@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <!-- <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+              <a href="tel:+12133522795" class="contact-link">+88 01303570003</a> -->
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">attendantarno@gmail.com</a>
-            </div>
+                <time datetime="1982-06-23">August 23, 2000</time>
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <address>Banasree Dhaka Bangladesh</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+          <div class="separator"></div>
 
-              <a href="tel:+12133522795" class="contact-link">+88 01303570003</a>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-          <li class="contact-item">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">August 23, 2000</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Banasree Dhaka Bangladesh</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <!-- <li class="navbar-item">
+            <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>BLOG</button>
           </li> -->
 
-          <!-- <li class="navbar-item">
+            <!-- <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
           </li>  -->
+          </ul>
+        </nav>
 
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              Hello I am Samiun Mahmud,I am a passionate Computer Science
+              Engineering student with a love for solving complex problems and
+              exploring the vast world of technology. I thrive on turning
+              innovative ideas into practical solutions. Whether it's coding,
+              algorithms, or the latest tech trends
+            </p>
 
-        <section class="about-text">
-          <p>
-            Hello I am Samiun Mahmud,I am a passionate Computer Science Engineering student with a love for solving complex problems and exploring the vast world of technology. I thrive on turning innovative ideas into practical solutions. Whether it's coding, algorithms, or the latest tech trends
-          </p>
+            <p>
+              My job is to build your project so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
 
-          <p>
-            My job is to build your project so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/sys.png"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">System Programmer</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    The most modern and high-quality system made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/sys.png" alt="Web development icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/web.png"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">System Programmer</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
 
-                <p class="service-item-text">
-                  The most modern and high-quality system made at a professional level.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
 
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/pcb1.png"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-            <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">PCB Design</h4>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/web.png" alt="Web development icon" width="40">
-              </div>
+                  <p class="service-item-text">
+                    Professional Design any Type of Motherboard
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/Connect-ROS.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">ROS Development</h4>
 
-            </li>
+                  <p class="service-item-text">
+                    ROS (Robot Operating System) is an open-source middleware
+                    framework facilitating the development of software for
+                    robotic systems.
+                  </p>
+                </div>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/arduino-logo-1.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/pcb1.png" alt="mobile app icon" width="40">
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Arduino Development</h4>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">PCB Design</h4>
+                  <p class="service-item-text">
+                    Arduino: Open-source platform for prototyping and
+                    programming electronic devices.
+                  </p>
+                </div>
+              </li>
 
-                <p class="service-item-text">
-                  Professional Design any Type of Motherboard
-                </p>
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/dtsc.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-            </li>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Deep Learning</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    Deep learning: AI technique using neural networks to model
+                    and solve complex tasks.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/Connect-ROS.png" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">ROS Development</h4>
-
-                <p class="service-item-text">
-                  ROS (Robot Operating System) is an open-source middleware framework facilitating the development of software for robotic systems.
-                </p>
-              </div>
-
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/arduino-logo-1.png" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Arduino Development</h4>
-
-                <p class="service-item-text">
-                  Arduino: Open-source platform for prototyping and programming electronic devices.
-                </p>
-              </div>
-
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/dtsc.png" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Deep Learning</h4>
-
-                <p class="service-item-text">
-                  Deep learning: AI technique using neural networks to model and solve complex tasks.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials
         -->
-<!-- 
+          <!-- 
         <section class="testimonials">
 
           <h3 class="h3 testimonials-title">Testimonials</h3>
@@ -442,48 +433,44 @@
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-          <section class="testimonials-modal">
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/pcb.png" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Samiun Mahmud</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                 
-                </p>
+                <img src="./assets/images/pcb.png" alt="quote icon" />
               </div>
 
-            </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Samiun Mahmud</h4>
 
-          </section>
+                <time datetime="2021-06-14">14 June, 2021</time>
 
-        </div> 
+                <div data-modal-text>
+                  <p></p>
+                </div>
+              </div>
+            </section>
+          </div>
 
-
-        <!--
+          <!--
           - clients
         -->
 
-        <!-- <section class="clients">
+          <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Clients</h3>
 
@@ -528,342 +515,315 @@
           </ul>
 
         </section> -->
+        </article>
 
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Independent University Bangladesh
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2020 - Present</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Neither do I seek pleasure itself, but rather the pursuit of
+                  pleasure; or the satisfaction of present desires, but the
+                  removal of pain. As for the pains and pleasures themselves, or
+                  the causes of my desires and aversions, I do not concern
+                  myself with them.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">Independent University Bangladesh</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  BAF SHAHEEN COLLEGE DHAKA
+                </h4>
 
-              <span>2020 - Present</span>
+                <span>2016 — 2018</span>
 
-              <p class="timeline-text">
-                Neither do I seek pleasure itself, but rather the pursuit of pleasure; or the satisfaction of present desires, but the removal of pain. As for the pains and pleasures themselves, or the causes of my desires and aversions, I do not concern myself with them.
-              </p>
+                <p class="timeline-text">
+                  People do not know how to pursue pleasure, to do something, we
+                  take some error, all pleasure is to be assumed as a whole
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">IDEAL SCHOOL AND COLLEGE</h4>
 
-            <li class="timeline-item">
+                <span>2006 — 2016</span>
 
-              <h4 class="h4 timeline-item-title">BAF SHAHEEN COLLEGE DHAKA</h4>
+                <p class="timeline-text">
+                  Nor can it be rejected, on the other hand, the pleasure which
+                  rejects or avoids it, but the consequences are large pains
+                  eos.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <span>2016 — 2018</span>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <p class="timeline-text">
-                People do not know how to pursue pleasure, to do something, we take some error, all pleasure is to be assumed as a whole
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">IDEAL SCHOOL AND COLLEGE</h4>
-
-              <span>2006 — 2016</span>
-
-              <p class="timeline-text">
-                Nor can it be rejected, on the other hand, the pleasure which rejects or avoids it, but the consequences are large pains
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">ATTENDANT NEW GENERATION OF MARS ROVER</h4>
-
-              <span>2018 — Present</span>
-
-              <p class="timeline-text">
-                As a Team Leader of Attendant Rover trailblazing next-generation Mars rover poised to redefine planetary exploration. Engineered by these dedicated team of space enthusiasts and robotics experts, Attendant represents the pinnacle of technological innovation in extraterrestrial exploration.
-              </p>
-
-            </li>
-
-
-
-            
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">PULSE MEDICAL PROJECT</h4>
-
-              <span>2023 — Present</span>
-
-              <p class="timeline-text">
-                The Pulse Medical Project is a groundbreaking initiative at the intersection of healthcare and technology. Leveraging cutting-edge advancements in medical science and data analytics, this project is dedicated to revolutionizing patient care and diagnostics.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">MEGATRON HUMANOID ROBOT</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">AUTONOMOUS CAR</h4>
-
-              <span>2022 - 2022</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">AI BASED CAR SPEED DETECTOR</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">IoT Based Home Automation</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">LINETRACER PID ALGORITHM</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">DELIVERY AUTOMATION BOT</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">AI BOT</h4>
-
-              <span>2022 - 2023</span>
-
-              <p class="timeline-text">
-                Meet Megatron, the pinnacle of humanoid robotic engineering designed to redefine human-robot interaction. Developed by a team of experts in robotics and artificial intelligence, Megatron combines cutting-edge technology with a human-like form factor for versatile applications.
-              </p>
-
-            </li>
-
-            
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web Development</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Embedded System</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">PCB Design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-              
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ROS Development</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-              
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Data Science</h5>
-                <data value="">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-              
-
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  ATTENDANT NEW GENERATION OF MARS ROVER
+                </h4>
+
+                <span>2018 — Present</span>
+
+                <p class="timeline-text">
+                  As a Team Leader of Attendant Rover trailblazing
+                  next-generation Mars rover poised to redefine planetary
+                  exploration. Engineered by these dedicated team of space
+                  enthusiasts and robotics experts, Attendant represents the
+                  pinnacle of technological innovation in extraterrestrial
+                  exploration.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">PULSE MEDICAL PROJECT</h4>
+
+                <span>2023 — Present</span>
+
+                <p class="timeline-text">
+                  The Pulse Medical Project is a groundbreaking initiative at
+                  the intersection of healthcare and technology. Leveraging
+                  cutting-edge advancements in medical science and data
+                  analytics, this project is dedicated to revolutionizing
+                  patient care and diagnostics.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">MEGATRON HUMANOID ROBOT</h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AUTONOMOUS CAR</h4>
+
+                <span>2022 - 2022</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  AI BASED CAR SPEED DETECTOR
+                </h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  IoT Based Home Automation
+                </h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">LINETRACER PID ALGORITHM</h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">DELIVERY AUTOMATION BOT</h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">AI BOT</h4>
+
+                <span>2022 - 2023</span>
+
+                <p class="timeline-text">
+                  Meet Megatron, the pinnacle of humanoid robotic engineering
+                  designed to redefine human-robot interaction. Developed by a
+                  team of experts in robotics and artificial intelligence,
+                  Megatron combines cutting-edge technology with a human-like
+                  form factor for versatile applications.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Embedded System</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PCB Design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ROS Development</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Science</h5>
+                  <data value="">85%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
 
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <!-- <li class="filter-item">
+              <!-- <li class="filter-item">
               <button data-filter-btn>Web design</button>
             </li>
 
@@ -874,28 +834,25 @@
             <li class="filter-item">
               <button data-filter-btn>Robotics</button>
             </li> -->
+            </ul>
 
-          </ul>
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
 
-          <div class="filter-select-box">
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
 
-            <button class="filter-select" data-select>
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
 
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <!-- <li class="select-item">
+                <!-- <li class="select-item">
                 <button data-select-item>Web design</button>
               </li>
 
@@ -906,212 +863,279 @@
               <li class="select-item">
                 <button data-select-item>Robotics</button>
               </li> -->
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/v3.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Autonomous SmartBin</h3>
-
-                <p class="project-category">Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Screenshot 2023-05-19 041117.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Pulse Sensing Robotic Hand</h3>
-
-                <p class="project-category">Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Screenshot 2023-05-19 041052.png" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">IoT Home Automation</h3>
-
-                <p class="project-category">Internet Of Things</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Screenshot 2023-05-18 033647.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">New Generation Of Mars Rover Attendant</h3>
-
-                <p class="project-category">Mars Rover</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/v8.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Human Interation Robot</h3>
-
-                <p class="project-category">Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/p1.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">PULSE Medical Service </h3>
-
-                <p class="project-category">AI Based Project</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/p2.jpg" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hand Detector</h3>
-
-                <p class="project-category">Image Processing</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/ch1.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AI Bot</h3>
-
-                <p class="project-category">AI Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/c1.jpg" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Renessas High Automation Car</h3>
-
-                <p class="project-category">Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/sock.jpg" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Smart Compression sock</h3>
-
-                <p class="project-category">Robotics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/control.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Communication Controller For Rover</h3>
-
-                <p class="project-category">Design & Development</p>
-
-              </a>
-            </li>
-
-            <!-- <li class="project-item  active" data-filter-item data-category="web development">
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/v3.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Autonomous SmartBin</h3>
+
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Screenshot 2023-05-19 041117.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Pulse Sensing Robotic Hand</h3>
+
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Screenshot 2023-05-19 041052.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">IoT Home Automation</h3>
+
+                  <p class="project-category">Internet Of Things</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/Screenshot 2023-05-18 033647.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    New Generation Of Mars Rover Attendant
+                  </h3>
+
+                  <p class="project-category">Mars Rover</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/v8.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Human Interation Robot</h3>
+
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/p1.jpg"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PULSE Medical Service</h3>
+
+                  <p class="project-category">AI Based Project</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/p2.jpg"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hand Detector</h3>
+
+                  <p class="project-category">Image Processing</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ch1.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">AI Bot</h3>
+
+                  <p class="project-category">AI Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/c1.jpg"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Renessas High Automation Car</h3>
+
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/sock.jpg"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Smart Compression sock</h3>
+
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/control.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Communication Controller For Rover
+                  </h3>
+
+                  <p class="project-category">Design & Development</p>
+                </a>
+              </li>
+
+              <!-- <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
                 <figure class="project-img">
@@ -1129,78 +1153,74 @@
               </a>
             </li> -->
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                    <img
+                      src="./assets/images/pcb23.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
 
-                  <img src="./assets/images/pcb23.png" alt="arrival" loading="lazy">
-                </figure>
+                  <h3 class="project-title">Compact PCB For Mars Rover</h3>
 
-                <h3 class="project-title">Compact PCB For Mars Rover</h3>
+                  <p class="project-category">Robotics</p>
+                </a>
+              </li>
 
-                <p class="project-category">Robotics</p>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="blog.html">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
 
-              </a>
-            </li>
+                    <img
+                      src="./assets/images/meg1.jpg"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="blog.html">
+                  <h3 class="project-title">AI Based DOF Robot</h3>
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
+                  <p class="project-category">Deep Learning</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
 
-                  <img src="./assets/images/meg1.jpg" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AI Based DOF Robot</h3>
-
-                <p class="project-category">Deep Learning</p>
-
-              </a>
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      
-
-     
-
-    </div>
-
-  </main> 
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
